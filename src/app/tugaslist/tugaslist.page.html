@@ -1,0 +1,107 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-title class="ion-text-center">SEARCH</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large"> List User </ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-searchbar color="white" placeholder="Search"></ion-searchbar>
+
+  <ion-list>
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img
+          class="gambar"
+          alt="Silhouette of mountains"
+          src="../../assets/img/aji.jpg"
+        />
+      </ion-thumbnail>
+      <ion-label>Ajii</ion-label>
+      <ion-grid>
+        <ion-row>
+          <ion-col
+            ><ion-button expand="block" id="open-toast1">Add Friend</ion-button>
+            <ion-toast
+              trigger="open-toast1"
+              message="Add Friend Ajii"
+              [duration]="5000"
+            ></ion-toast
+          ></ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-item>
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img
+          class="gambar"
+          alt="Silhouette of mountains"
+          src="../../assets/img/nanda.jpg"
+        />
+      </ion-thumbnail>
+      <ion-label>Anandaa</ion-label>
+      <ion-grid>
+        <ion-row>
+          <ion-col
+            ><ion-button expand="block" id="open-toast3">Unfriend</ion-button>
+            <ion-toast
+              trigger="open-toast3"
+              message="Unfriend Anandaa"
+              [duration]="5000"
+            ></ion-toast
+          ></ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-item>
+
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img
+          class="gambar"
+          alt="Silhouette of mountains"
+          src="../../assets/img/tika.JPEG"
+        />
+      </ion-thumbnail>
+      <ion-label>Artikaa</ion-label>
+      <ion-grid>
+        <ion-row>
+          <ion-col
+            ><ion-button expand="block" id="open-toast3">Accept</ion-button>
+            <ion-toast
+              trigger="open-toast3"
+              message="Accept Artikaa"
+              [duration]="5000"
+            ></ion-toast
+          ></ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-item>
+
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img
+          class="gambar"
+          alt="Silhouette of mountains"
+          src="../../assets/img/osyad.JPG"
+        />
+      </ion-thumbnail>
+      <ion-label>Rosyadi</ion-label>
+      <ion-grid>
+        <ion-row>
+          <ion-col
+            ><ion-button expand="block" id="open-toast4">Add Friend</ion-button>
+            <ion-toast
+              trigger="open-toast4"
+              message="Add Friend Rosyadi"
+              [duration]="5000"
+            ></ion-toast
+          ></ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-item>
+  </ion-list>
+</ion-content>
